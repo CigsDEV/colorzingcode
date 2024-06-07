@@ -1,0 +1,57 @@
+{
+  "files.associations": {
+    "*.clz": "colorzing"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment.line.double-dash.colorzing",
+        "settings": {
+          "foreground": "#6A9955"
+        }
+      },
+      {
+        "scope": "comment.block.colorzing",
+        "settings": {
+          "foreground": "#6A9955"
+        }
+      },
+      {
+        "scope": "keyword.control.import.colorzing",
+        "settings": {
+          "foreground": "#569CD6"
+        }
+      },
+      {
+        "scope": "keyword.control.colorzing",
+        "settings": {
+          "foreground": "#569CD6"
+        }
+      },
+      {
+        "scope": "entity.name.function.colorzing",
+        "settings": {
+          "foreground": "#DCDCAA"
+        }
+      },
+      {
+        "scope": "constant.numeric.colorzing",
+        "settings": {
+          "foreground": "#B5CEA8"
+        }
+      },
+      {
+        "scope": "string.quoted.double.colorzing",
+        "settings": {
+          "foreground": "#CE9178"
+        }
+      },
+      {
+        "scope": "variable.parameter.colorzing",
+        "settings": {
+          "foreground": "#9CDCFE"
+        }
+      }
+    ]
+  }
+}
