@@ -42,6 +42,5 @@
       "match": "\\b(float|int|bool|LogLevel|Color)\\b"
     }
   ],
-  "repository": {},
-  "scopeName": "source.colorzing"
+  "repository": {}
 }
