@@ -1,6 +1,7 @@
 {
   "files.associations": {
-    "*.clz": "colorzing"
+    "*.clz": "colorzing",
+    "*.cz": "colorzing"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
