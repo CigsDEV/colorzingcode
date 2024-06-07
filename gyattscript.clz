@@ -1,0 +1,34 @@
+import[Colorzing.Enums];
+import[Colorzing.Color];
+import[Colorzing.Math];
+import[Colorzing.Noise];
+
+-- GyattScript : Colorzing : Ver 0.3.5 : NameSpace:("MyNamespace") --
+--      Description     --
+[*  
+                                    
+            Makes a BIG GYATT!
+                                    
+*]
+
+[[ Define some values ]]
+LogLevel:logLevel = LogLevel.Inform;
+Color:myColor = new Color("#FF5733");
+float:clampedValue = Math.Clamp(5.0, 1.0, 10.0);
+float:randomValue = Noise.RandomValue();
+
+[[ Log some values ]]
+log("LogLevel: " + logLevel.ToString(), logLevel);
+log("Hex Color: " + myColor.Hex, logLevel);
+log("Clamped Value: " + clampedValue.ToString(), logLevel);
+log("Random Value: " + randomValue.ToString(), logLevel);
+
+[[ Custom script actions ]]
+void:MakeGyatt()
+{
+    log("Making a BIG GYATT!", logLevel);
+    // Add custom Gyatt logic here
+}
+
+[[ Execute the custom function ]]
+MakeGyatt();
